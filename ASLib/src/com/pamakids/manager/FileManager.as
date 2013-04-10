@@ -15,7 +15,7 @@ package com.pamakids.manager
 			try
 			{
 				var f:File=File.applicationStorageDirectory.resolvePath(path);
-				trace(f.nativePath);
+				trace(f.nativePath+'test');
 				if (f.exists == false)
 					return o;
 				var fs:FileStream=new FileStream();
